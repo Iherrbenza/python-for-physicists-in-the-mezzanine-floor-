@@ -1,0 +1,3 @@
+Hello, World!
+The division is 0.5Hello, World!
+The division is 0.5
