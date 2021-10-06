@@ -1,5 +1,5 @@
-<b style="font-size:50px;color:#2196F3;">Introduction to python for physicists in the mezzanine floor</b>  
-<b style="font-size:30px;color:#2196F3;">notebook_0_introduction</b>
+# Introduction to python for physicists in the mezzanine floor 
+
 
 This notebooks are created with the intention to give a practical introduction to python programming language for a scientist.   
 I going to give a very personal vision of it, specially ho i become a swiss knife tool for me as a experimental-physcisist.  
