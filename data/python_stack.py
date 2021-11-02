@@ -20,7 +20,7 @@ with plt.xkcd():
     dimx = dim[0] - 2*margin
     dimy = 2.5
     psx = 0
-    psy = dim[1]/2 - margin - 1
+    psy = dim[1]/2 - margin - 3*dimy - 1.5
     rect = Rectangle((psx - dimx / 2, psy - dimy / 2) , dimx , dimy, ec="grey", fc="#9ABCFF")
     ax.add_patch(rect)     
     ax.text(psx, psy, "Python 3.7 \ncore", ha="center", va="center", rotation=0, size=40)
@@ -28,7 +28,7 @@ with plt.xkcd():
     dimx = (dim[0] - 2*margin) / 3 - 0.1
     dimy = 2.5
     psx =  dimx + 2* 0.1
-    psy = dim[1]/2 - margin - dimy - 1.1
+    psy = dim[1]/2 - margin - 2*dimy - 1.2
     rect = Rectangle((psx - dimx / 2, psy - dimy / 2) , dimx , dimy, ec="grey", fc="#9ABCFF")
     ax.add_patch(rect)     
     ax.text(psx, psy, "Numpy\n1.20.3", ha="center", va="center", rotation=0, size=30)
@@ -52,7 +52,7 @@ with plt.xkcd():
     dimx = (dim[0] - 2*margin) / 3 - 0.1
     dimy = 2.5
     psx =  dimx + 2* 0.1
-    psy = dim[1]/2 - margin - 2*dimy - 1.2
+    psy = dim[1]/2 - margin - dimy - 1.1
     rect = Rectangle((psx - dimx / 2, psy - dimy / 2) , dimx , dimy, ec="grey", fc="#9ABCFF")
     ax.add_patch(rect)     
     ax.text(psx, psy, "Scipy\n1.6.2", ha="center", va="center", rotation=0, size=30)
@@ -60,10 +60,58 @@ with plt.xkcd():
     dimx = dim[0] - 2*margin
     dimy = 2.5
     psx = 0
-    psy = dim[1]/2 - margin - 3*dimy - 1.5
+    psy = dim[1]/2 - margin - 1
     rect = Rectangle((psx - dimx / 2, psy - dimy / 2) , dimx , dimy, ec="grey", fc="#9ABCFF")
     ax.add_patch(rect)     
     ax.text(psx, psy, "Your code\nv1.9", ha="center", va="center", rotation=0, size=40)
+    
+#     dimx = dim[0] - 2*margin
+#     dimy = 2.5
+#     psx = 0
+#     psy = dim[1]/2 - margin - 1
+#     rect = Rectangle((psx - dimx / 2, psy - dimy / 2) , dimx , dimy, ec="grey", fc="#9ABCFF")
+#     ax.add_patch(rect)     
+#     ax.text(psx, psy, "Python 3.7 \ncore", ha="center", va="center", rotation=0, size=40)
+    
+#     dimx = (dim[0] - 2*margin) / 3 - 0.1
+#     dimy = 2.5
+#     psx =  dimx + 2* 0.1
+#     psy = dim[1]/2 - margin - dimy - 1.1
+#     rect = Rectangle((psx - dimx / 2, psy - dimy / 2) , dimx , dimy, ec="grey", fc="#9ABCFF")
+#     ax.add_patch(rect)     
+#     ax.text(psx, psy, "Numpy\n1.20.3", ha="center", va="center", rotation=0, size=30)
+    
+#     dimx = (dim[0] - 2 * margin) / 3 - 0.1
+#     dimy = 2 * 2.5 + 0.1
+#     psx =  - dimx  - 0.1
+#     psy = dim[1]/2 - margin - dimy - 1.1 + 1.28
+#     rect = Rectangle((psx - dimx / 2, psy - dimy / 2) , dimx , dimy, ec="grey", fc="#9ABCFF")
+#     ax.add_patch(rect)     
+#     ax.text(psx, psy, "Sympy\n1.8", ha="center", va="center", rotation=0, size=30)
+    
+#     dimx = (dim[0] - 2*margin) / 3 - 0.1
+#     dimy = 2 * 2.5 + 0.1
+#     psx =  0 
+#     psy = dim[1]/2 - margin - dimy - 1.1 + 1.28
+#     rect = Rectangle((psx - dimx / 2, psy - dimy / 2) , dimx , dimy, ec="grey", fc="#9ABCFF")
+#     ax.add_patch(rect)     
+#     ax.text(psx, psy, "Matplotlib\n 3.4.2", ha="center", va="center", rotation=0, size=30)
+    
+#     dimx = (dim[0] - 2*margin) / 3 - 0.1
+#     dimy = 2.5
+#     psx =  dimx + 2* 0.1
+#     psy = dim[1]/2 - margin - 2*dimy - 1.2
+#     rect = Rectangle((psx - dimx / 2, psy - dimy / 2) , dimx , dimy, ec="grey", fc="#9ABCFF")
+#     ax.add_patch(rect)     
+#     ax.text(psx, psy, "Scipy\n1.6.2", ha="center", va="center", rotation=0, size=30)
+    
+#     dimx = dim[0] - 2*margin
+#     dimy = 2.5
+#     psx = 0
+#     psy = dim[1]/2 - margin - 3*dimy - 1.5
+#     rect = Rectangle((psx - dimx / 2, psy - dimy / 2) , dimx , dimy, ec="grey", fc="#9ABCFF")
+#     ax.add_patch(rect)     
+#     ax.text(psx, psy, "Your code\nv1.9", ha="center", va="center", rotation=0, size=40)
     
 #     ax.annotate('',
 #     xy=((dim[0] - 2*margin) / 3 - 0.1 + 2* 0.1, dim[1]/2 - margin - 2.5 - 1.1), arrowprops=dict(
