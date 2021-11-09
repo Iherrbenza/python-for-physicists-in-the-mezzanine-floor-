@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.font_manager as fm
 import requests
-print(requests.__version__)
+
 
 # download a the humor font
 fname = "Humor-Sans.ttf"
@@ -16,7 +16,6 @@ if not os.path.exists(fname):
 
 dim = [10, 10]
 margin = 2
-
 def do_graph():
     with plt.xkcd():
         # Based on "Stove Ownership" from XKCD by Randall Munroe
@@ -53,7 +52,7 @@ def do_graph():
             bbox=dict(boxstyle="round4, pad=0.5", fc="cyan", ec="b", lw=2))
 
     plt.savefig("netw0_graph.png")
-    print("graph done2")
+    print("graph done")
     
 if __name__ == "__main__":
     do_graph()

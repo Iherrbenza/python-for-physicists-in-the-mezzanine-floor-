@@ -126,3 +126,4 @@ with plt.xkcd():
     
     plt.tight_layout()
 plt.savefig("python_stack.png")
+print("done")
